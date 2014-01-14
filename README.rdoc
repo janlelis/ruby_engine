@@ -1,0 +1,28 @@
+= RubyEngine
+
+Provides a @RubyEngine@ to simplify checking on which implementation your Ruby programs is running.
+
+== Setup
+
+On your command-line:
+
+    $ gem install ruby_engine
+
+In Ruby:
+
+    require 'ruby_engine'
+
+== Usage
+
+    RubyEngine: "# outputs the interpreter name"
+    RubyEngine.mri?: "RubyEngine.mri? # true if using the official Ruby interpreter"
+    RubyEngine.jruby?: "RubyEngine.jruby? # true if using JRuby"
+    RubyEngine.rubinius?: "RubyEngine.rubinius? # true if using rubinius"
+    RubyEngine.ree?: "RubyEngine.ree? # true if using enterprise edition"
+    RubyEngine.ironruby?: "RubyEngine.ironruby? # true if using IronRuby"
+    RubyEngine.macruby?: "RubyEngine.macruby? # true if using MacRuby"
+    RubyEngine.cardinal?: "RubyEngine.cardinal? # true if using parrot"
+
+== J-_-L
+
+Copyright (c) 2010-2014 Jan Lelis. MIT License. Originated from the zucker gem.
