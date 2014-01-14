@@ -7,13 +7,13 @@ module RubyEngine
         if RUBY_DESCRIPTION =~ /Enterprise/
           'ree'
         else
-          'mri'
+          'ruby'
         end
       else
         RUBY_ENGINE.to_s # jruby, rbx, ironruby, macruby, etc.
       end
-    else # probably 1.8
-      'mri'
+    else
+      'unknown'
     end
 
   class << self
