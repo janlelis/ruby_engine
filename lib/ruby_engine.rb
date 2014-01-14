@@ -1,21 +1,20 @@
 module RubyEngine
-  # try to guess the interpreter
   @interpreter = case
-  when RUBY_PLATFORM == 'parrot'
-    'cardinal'
-  when Object.const_defined?(:RUBY_ENGINE)
-    if RUBY_ENGINE == 'ruby'
-      if RUBY_DESCRIPTION =~ /Enterprise/
-        'ree'
+    when RUBY_PLATFORM == 'parrot'
+      'cardinal'
+    when Object.const_defined?(:RUBY_ENGINE)
+      if RUBY_ENGINE == 'ruby'
+        if RUBY_DESCRIPTION =~ /Enterprise/
+          'ree'
+        else
+          'mri'
+        end
       else
-        'mri'
+        RUBY_ENGINE.to_s # jruby, rbx, ironruby, macruby, etc.
       end
-    else
-      RUBY_ENGINE.to_s # jruby, rbx, ironruby, macruby, etc.
+    else # probably 1.8
+      'mri'
     end
-  else # probably 1.8
-    'mri'
-  end
 
   class << self
     def is?(what)
