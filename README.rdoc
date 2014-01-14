@@ -14,9 +14,11 @@ In Ruby:
 
 == Usage
 
-    RubyEngine.to_s # outputs the interpreter name
+    # Output the interpreter name
+    RubyEngine.to_s
 
-    RubyEngine.is? 'jruby' # true for jruby
+    # true for JRuby
+    RubyEngine.is? 'jruby'
 
     # There are some query methods defined:
     RubyEngine.mri?
@@ -26,6 +28,10 @@ In Ruby:
     RubyEngine.ironruby?
     RubyEngine.macruby?
     RubyEngine.cardinal?
+
+== Also See
+
+https://github.com/janlelis/ruby_version
 
 == J-_-L
 
