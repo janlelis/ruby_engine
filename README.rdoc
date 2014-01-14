@@ -1,4 +1,4 @@
-= RubyEngine
+= RubyEngine {<img src="https://travis-ci.org/janlelis/ruby_engine.png" />}[https://travis-ci.org/janlelis/ruby_engine]
 
 Provides a +RubyEngine+ to simplify checking on which implementation your Ruby programs is running.
 
@@ -15,10 +15,10 @@ In Ruby:
 == Usage
 
     RubyEngine.to_s # outputs the interpreter name
-    
+
     RubyEngine.is? 'jruby' # true for jruby
-    
-    # There are some query methods defined: 
+
+    # There are some query methods defined:
     RubyEngine.mri?
     RubyEngine.jruby?
     RubyEngine.rubinius?
