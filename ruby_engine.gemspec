@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 
-require File.expand_path('../lib/ruby_engine/version', __FILE__)
+require File.expand_path('../lib/ruby_engine', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name          = "ruby_engine"

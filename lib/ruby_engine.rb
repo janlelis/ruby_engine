@@ -1,4 +1,6 @@
 module RubyEngine
+  VERSION = '1.0.1'
+
   @interpreter = case
     when RUBY_PLATFORM == 'parrot'
       'cardinal'
