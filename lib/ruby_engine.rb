@@ -30,7 +30,7 @@ module RubyEngine
     # ask methods
 
     def mri?
-      RubyEngine.is? 'mri'
+      RubyEngine.is? 'ruby'
     end
     alias official_ruby? mri?
     alias ruby? mri?
