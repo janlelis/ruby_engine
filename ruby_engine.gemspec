@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.description   = 'Gives you an RubyEngine class that simplifies checking for your Ruby implementation.'
   gem.license       = "MIT"
   gem.authors       = ["Jan Lelis"]
-  gem.email         = "mail@janlelis.de"
+  gem.email         = ["hi@ruby.consulting"]
   gem.homepage      = "https://github.com/janlelis/ruby_engine"
 
   gem.files         = Dir['{**/}{.*,*}'].select { |path| File.file?(path) }
