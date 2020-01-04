@@ -15,4 +15,8 @@ rvm:
 - jruby-9.2.9.0
 - jruby-head
 - truffleruby
-- rbx-4.10
+- rbx-4
+
+matrix:
+  allow_failures:
+    - rvm: rbx-4
