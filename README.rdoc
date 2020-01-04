@@ -24,10 +24,7 @@ In Ruby:
     RubyEngine.mri?
     RubyEngine.jruby?
     RubyEngine.rubinius?
-    RubyEngine.ree?
-    RubyEngine.ironruby?
     RubyEngine.macruby?
-    RubyEngine.cardinal?
 
 == Also See
 
@@ -37,4 +34,4 @@ https://github.com/rdp/os
 
 == J-_-L
 
-Copyright (c) 2010-2014 Jan Lelis. MIT License. Originated from the zucker gem.
+Copyright (c) 2010-2014, 2020 Jan Lelis. MIT License. Originated from the zucker gem.
