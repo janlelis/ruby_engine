@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.0.1 / 2024-04-02 (unreleased)
+
+* Add MFA to gemspec
+
 ## 2.0.0 / 2020-01-04
 
 * Refactor / update for current Rubies
