@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.0.2 / 2024-04-22
+
+* Upgrade RSpec to latest, fixeses a Ruby 2.5 install problem
+
 ## 2.0.1 / 2024-04-02
 
 * Add MFA to gemspec

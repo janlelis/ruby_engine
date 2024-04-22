@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.metadata      = { "rubygems_mfa_required" => "true" }
 
-  gem.add_development_dependency 'rake', '~> 13.0'
-  gem.add_development_dependency 'rspec', '~> 2.99'
+  gem.add_development_dependency 'rake', '~> 13.2'
+  gem.add_development_dependency 'rspec', '~> 3.13'
   gem.add_development_dependency 'rubygems-tasks', '~> 0.2'
 end

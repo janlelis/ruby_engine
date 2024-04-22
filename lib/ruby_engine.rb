@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module RubyEngine
-  VERSION = '2.0.1'
+  VERSION = '2.0.2'
 
   @interpreter = RUBY_ENGINE.to_s
 
@@ -40,4 +40,3 @@ module RubyEngine
   end
 end
 
-# J-_-L
