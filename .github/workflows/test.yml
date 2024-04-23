@@ -33,6 +33,8 @@ jobs:
         bundler-cache: true
     - name: Run tests
       run: bundle exec rake
+    - name: Test if gem is installable
+      run: bundle exec rake gem
 
   test-windows:
     name: Ruby ${{ matrix.ruby }} (windows-latest)
@@ -59,3 +61,5 @@ jobs:
         bundler-cache: true
     - name: Run tests
       run: bundle exec rake
+    - name: Test if gem is installable
+      run: bundle exec rake gem
